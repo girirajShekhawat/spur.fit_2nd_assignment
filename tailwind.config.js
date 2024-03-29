@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+      'sans':['Mona Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif']
+    },
+    
   },
   plugins: [],
 }
