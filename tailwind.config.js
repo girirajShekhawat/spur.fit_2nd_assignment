@@ -9,6 +9,9 @@ export default {
     fontFamily:{
       'sans':['Mona Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif']
     },
+    container: {
+      center: true,
+    },
     
   },
   plugins: [],
