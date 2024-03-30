@@ -12,11 +12,14 @@ function App() {
 
   return (
     <>
-      <div>
+      <div  >
        <Navbar/>
+       <div className='container'>
        <DesignersDetail/>
        <UpperFooter/>
        <Footer/>
+       </div>
+        
       </div>
       
     </>

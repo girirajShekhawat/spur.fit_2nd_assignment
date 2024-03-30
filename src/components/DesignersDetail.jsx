@@ -10,7 +10,8 @@ function DesignersDetail(props) {
         <div className='px-[120px] py-[64px] '>
             <h1 className='h-[29px] mb-[10px] text-[#0d0c22] text-[24px] leading-[29px] font-[600] '>Ahead app redesign concept</h1>
            
-            <div className='  flex justify-between items-center h-[72px] mb-[19px]  '>
+           {/* designer's Headign */}
+            <div className='  flex justify-between items-center h-[72px] mb-[19px] static '>
                 <div className='flex '>
                 <div>
                     <img src='https://cdn.dribbble.com/users/1998175/avatars/normal/af46ac7b92eb85f76f5a3fe4f214fdf2.jpg?1542363868' alt='DesignerImg' 
@@ -80,21 +81,24 @@ function DesignersDetail(props) {
       <div className='w-full flex flex-col items-center  '>
       <img src='https://cdn.dribbble.com/userupload/3938331/file/original-6350195b7dd8a06f9dbce8a8aeee3e72.jpg?resize=640x3878' alt='image' className='w-[1023px] bg-cover h-[6000px]'/>
       </div>
-      {/* designer details footer */}
-      <div>  
-        <div>
-            <span className='h-[2px] w-full bg-[#0d0c22]'></span>
-                <div>
-                    <img src='https://cdn.dribbble.com/users/1998175/avatars/normal/af46ac7b92eb85f76f5a3fe4f214fdf2.jpg?1542363868' alt='DesignerImg' 
-                     className='h-[72x] w-[72px] mx-[24px] rounded-full bg-[#f3f3f4]'/>
-                </div>
-                <span className='h-[2px] w-full bg-[#0d0c22]'></span>
-          </div>
-          <div>Taras Migulko</div>
-          <div>Email me hey@migulko.cz</div>
-          <div className='box-border h-[40px] w-[117px]   bg-[#0d0c22] rounded-full pl-[24px] pr-[24px] flex items-center   ml-[24px]'>
-                <button className='text-[14px] text-white'>Get in touch</button>
+      {/* designer's details footer */}
+      <div className='flex flex-col mt-[32px] '>  
+      <div className='flex justify-between h-20 items-center'>
+    <span className='flex-1 h-[1.6px]  bg-gray-300'></span>
+    <div className='mx-8'>
+        <img src='https://cdn.dribbble.com/users/1998175/avatars/normal/af46ac7b92eb85f76f5a3fe4f214fdf2.jpg?1542363868' alt='DesignerImg' className='h-16 w-16 rounded-full bg-gray-200' />
+    </div>
+    <span className='flex-1 h-[1.6px]   bg-gray-300'></span>
+</div>     
+ 
+
+ 
+          <div className='text-center text-[20px] font-[500] leading-[29px] mt-[16px] text-[#0d0c22] font-sans '>Taras Migulko</div>
+          <div className='text-center text-[14px] font-[400] leading-[20px] mt-[8px] text-[#3d3d4e] font-sans '>Email me hey@migulko.cz</div>
+            <div className=' self-center h-[40px] w-[117px] mt-[16px]   bg-[#0d0c22] rounded-full   flex items-center pl-[20px] pr-[20px]  ml-[12px]'>
+                <button className='text-[13px] text-white h-[38px] w-[76px] leading-[13px] font-sans font-[600]'>Get in touch</button>
             </div>
+             
       </div>
         </div>
         <MoreDesignes/>
