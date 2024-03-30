@@ -11,8 +11,8 @@ function DesignersDetail(props) {
         <div className='px-[120px] py-[64px] '>
             <h1 className='h-[29px] mb-[10px] text-[#0d0c22] text-[24px] leading-[29px] font-[600] '>Ahead app redesign concept</h1>
            
-           {/* designer's Headign */}
-            <div className='  flex justify-between items-center h-[72px] mb-[19px] static '>
+           {/* designer's Headigng */}
+            <div className='sticky top-0 z-10 bg-white flex justify-between items-center h-[72px] mb-[19px]  '>
                 <div className='flex '>
                 <div>
                     <img src='https://cdn.dribbble.com/users/1998175/avatars/normal/af46ac7b92eb85f76f5a3fe4f214fdf2.jpg?1542363868' alt='DesignerImg' 
@@ -54,9 +54,7 @@ function DesignersDetail(props) {
         </div>
 {/* video div */}
         <div>
-        {/* <video autoPlay controls loop muted className='rounded-lg'>
-        <source src="https://cdn.dribbble.com/userupload/3938332/file/original-984e9c8aa7bb40df5be856ec56201be1.mp4" type="video/mp4" />
-         </video> */}
+         
           <VideoComponent/>
       {/* whole text div */}
       <div className='  w-full flex flex-col items-center mt-[50px]'>
