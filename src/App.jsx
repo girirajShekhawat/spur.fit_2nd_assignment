@@ -14,7 +14,7 @@ function App() {
     <>
       <div  >
        <Navbar/>
-       <div className='container'>
+       <div className='lg:container'>
        <DesignersDetail/>
        <UpperFooter/>
        <Footer/>

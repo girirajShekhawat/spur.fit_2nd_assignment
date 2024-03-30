@@ -3,6 +3,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { RiBookmarkLine } from "react-icons/ri";
 import MoreDesignes from './MoreDesignes';
 import SideBar from './SideBar';
+import VideoComponent from './VideoComponent';
 
 function DesignersDetail(props) {
     return (
@@ -53,11 +54,12 @@ function DesignersDetail(props) {
         </div>
 {/* video div */}
         <div>
-        <video controls className='rounded-lg'>
+        {/* <video autoPlay controls loop muted className='rounded-lg'>
         <source src="https://cdn.dribbble.com/userupload/3938332/file/original-984e9c8aa7bb40df5be856ec56201be1.mp4" type="video/mp4" />
-         </video>
+         </video> */}
+          <VideoComponent/>
       {/* whole text div */}
-      <div className='  w-full flex flex-col items-center '>
+      <div className='  w-full flex flex-col items-center mt-[50px]'>
         <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>Hey all,</p>
         <p></p>
         <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>I've decided to make a redesign and animation for the <span className='relative'>Ahead 
@@ -78,9 +80,12 @@ function DesignersDetail(props) {
             <span className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='relative'>UI8  <span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-6'></span></span>      </span>
         </p>
       </div>
-      <div className='w-full flex flex-col items-center  '>
+      <div className='w-full flex flex-col items-center my-[100px] '>
       <img src='https://cdn.dribbble.com/userupload/3938331/file/original-6350195b7dd8a06f9dbce8a8aeee3e72.jpg?resize=640x3878' alt='image' className='w-[1023px] bg-cover h-[6000px]'/>
       </div>
+      
+    
+       
       {/* designer's details footer */}
       <div className='flex flex-col mt-[32px] '>  
       <div className='flex justify-between h-20 items-center'>

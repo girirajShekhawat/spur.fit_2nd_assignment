@@ -5,7 +5,7 @@ import { LiaExclamationCircleSolid } from "react-icons/lia";
 
 function SideBar () {
     return (
-        <div className=' absolute top-[360px] right-3'>
+        <div className=' absolute top-[360px] right-3 lg:visible collapse'>
             <div className='h-[40px] w-[40px]  mt-[15px]   border-2 solid rounded-full flex justify-center items-center '>
             <TbMessageCircle className='text-[#0d0c22]   '/>
             <div className='  bg-white border-2 solid rounded-full absolute top-1 left-6 px-[3px] '>
