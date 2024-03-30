@@ -56,27 +56,29 @@ function DesignersDetail(props) {
         <source src="https://cdn.dribbble.com/userupload/3938332/file/original-984e9c8aa7bb40df5be856ec56201be1.mp4" type="video/mp4" />
          </video>
       {/* whole text div */}
-      <div>
-        <p>Hey all,</p>
+      <div className='  w-full flex flex-col items-center '>
+        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>Hey all,</p>
         <p></p>
-        <p>I've decided to make a redesign and animation for the <b>Ahead</b>
+        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>I've decided to make a redesign and animation for the <span className='relative'>Ahead 
+         <span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-6'></span></span>
         I've decided to make a redesign and animation for the </p>
         <p></p>
-        <p>Design-Figma</p>
-        <p>Illustrations — Adobe Illustrator</p>
-        <p>Animation — Adobe After Effects</p>
+        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>Design-Figma</p>
+        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>Illustrations — Adobe Illustrator</p>
+        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>Animation — Adobe After Effects</p>
         <p></p>
-        <p>************&npsp</p>
-        <p>💌 I am open to new projects!&nbsp <b>hey@migulko</b></p>
-        <p>************</p>
-        <p>
-            <span><b>Instagram</b>  &npsp | &nbsp</span>
-            <span><b>Linkedin</b>  &npsp | &nbsp</span>
-            <span><b>UI8</b>  &npsp | &nbsp</span>
+        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>************&nbsp;</p>
+        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>💌 I am open to new projects!&nbsp;<span className='relative'>hey@migulko
+        <span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-7'></span></span></p>
+        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] h-[32px] w-[752px] mt-[32px]'>************</p>
+        <p className='h-[32px] w-[752px] mt-[32px]'>
+            <span className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='relative'>Instagram<span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-6'></span></span>    |   </span>
+            <span className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='relative'>Linkedin<span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-6'></span></span>    |   </span>
+            <span className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='relative'>UI8  <span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-6'></span></span>      </span>
         </p>
       </div>
-      <div>
-      <img src='https://cdn.dribbble.com/userupload/3938331/file/original-6350195b7dd8a06f9dbce8a8aeee3e72.jpg?resize=640x3878' alt='image'/>
+      <div className='w-full flex flex-col items-center  '>
+      <img src='https://cdn.dribbble.com/userupload/3938331/file/original-6350195b7dd8a06f9dbce8a8aeee3e72.jpg?resize=640x3878' alt='image' className='w-[1023px] bg-cover h-[6000px]'/>
       </div>
       {/* designer details footer */}
       <div>  
