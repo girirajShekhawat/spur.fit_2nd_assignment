@@ -57,27 +57,28 @@ function DesignersDetail(props) {
         <div>
          
           <VideoComponent/>
-      {/* whole text div */}
-      <div className='  w-full flex flex-col lg:items-center mt-[50px] '>
-        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>Hey all,</p>
-    
-         <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] my-[32px] '>I've decided to make a redesign and animation for the &nbsp; <span className='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>Ahead</span>&nbsp;
-         app. Please review and happy to read your feedback! </p>
-     
-        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>Design-Figma</p>
-        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>Illustrations — Adobe Illustrator</p>
-        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>Animation — Adobe After Effects</p>
-         
-        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>************&nbsp;</p>
-        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>💌 I am open to new projects!&nbsp;<span className='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>hey@migulko
-         </span></p>
-        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] h-[32px] lg:w-[752px] mt-[32px]'>************</p>
-        <p className='h-[32px] w-[752px] mt-[32px] flex flex-wrap'>
-            <span className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>Instagram </span>    |   </span>
-            <span className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>Linkedin </span>    |   </span>
-            <span className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>UI8   </span>    |  </span>
-        </p>
-      </div>
+
+<div class='flex flex-col lg:items-center mt-[50px]'>
+    <p class='text-base lg:text-lg font-normal leading-[32px] text-[#0d0c22] font-sans lg:w-[752px] mt-[32px]'>Hey all,</p>
+
+    <p class='text-base lg:text-lg font-normal leading-[32px] text-[#0d0c22] font-sans lg:w-[752px] my-[32px] '>I've decided to make a redesign and animation for the &nbsp; <span class='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>Ahead</span>&nbsp;
+        app. Please review and happy to read your feedback! </p>
+
+    <p class='text-base lg:text-lg font-normal leading-[32px] text-[#0d0c22] font-sans lg:w-[752px] mt-[32px]'>Design-Figma</p>
+    <p class='text-base lg:text-lg font-normal leading-[32px] text-[#0d0c22] font-sans lg:w-[752px] mt-[32px]'>Illustrations — Adobe Illustrator</p>
+    <p class='text-base lg:text-lg font-normal leading-[32px] text-[#0d0c22] font-sans lg:w-[752px] mt-[32px]'>Animation — Adobe After Effects</p>
+
+    <p class='text-base lg:text-lg font-normal leading-[32px] text-[#0d0c22] font-sans lg:w-[752px] mt-[32px]'>************&nbsp;</p>
+    <p class='text-base lg:text-lg font-normal leading-[32px] text-[#0d0c22] font-sans lg:w-[752px] mt-[32px]'>💌 I am open to new projects!&nbsp;<span class='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>hey@migulko</span></p>
+    <p class='text-base lg:text-lg leading-[32px] text-[#0d0c22] font-sans lg:w-[752px] mt-[32px]'>************</p>
+    <p class='flex flex-wrap mt-[32px]'>
+        <span class='text-base lg:text-lg font-normal leading-[32px] text-[#0d0c22] font-sans'><span class='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>Instagram </span> | </span>
+        <span class='text-base lg:text-lg font-normal leading-[32px] text-[#0d0c22] font-sans'><span class='underline underline-offset-8 decoration-[#ea64d9] decoration-2'> Linkedin </span> | </span>
+        <span class='text-base lg:text-lg font-normal leading-[32px] text-[#0d0c22] font-sans'><span class='underline underline-offset-8 decoration-[#ea64d9] decoration-2'> UI8 </span></span>
+    </p>
+</div>
+
+
       <div className='w-full flex flex-col items-center my-[100px] '>
       <img src='https://cdn.dribbble.com/userupload/3938331/file/original-6350195b7dd8a06f9dbce8a8aeee3e72.jpg?resize=640x3878' alt='image' className=' lg:w-[1023px] md:bg-cover   xs:bg-contain '/>
       </div>
