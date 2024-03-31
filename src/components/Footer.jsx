@@ -1,8 +1,4 @@
-// 
-
-
-
-
+ 
 import React from 'react';
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -88,27 +84,4 @@ export default Footer;
 
 
 
-
-//             <div className="container pt-12 pb-8 flex flex-col xl:flex-row justify-evenly items-center px-8 max-w-[1234.67px] bg-white text-[#0d0c22]">
-// <div className="justify-center xl:justify-start">
-//     <img src='https://asset.brandfetch.io/idARbzjU7f/idpVFjkyhe.svg' alt="Logo" className='h-8 w-28 text-[#0d0c22] bg-contain'/>
-// </div>   
-// <div className="flex justify-evenly flex-wrap w-full self-center ">
-//     <ul className="flex flex-wrap mx-auto xl:mx-0">
-//         <li className="mx-1 md:mr-5 mb-1 md:mb-0 w-1/2 md:w-auto font-sans text-sm md:text-base font-semibold text-[#0d0c22]">For designers</li>
-//         <li className="mx-1 md:mx-5 mb-1 md:mb-0 w-1/2 md:w-auto font-sans text-sm md:text-base font-semibold text-[#0d0c22]">Hire talent</li>
-//         <li className="mx-1 md:mx-5 mb-1 md:mb-0 w-1/2 md:w-auto font-sans text-sm md:text-base font-semibold text-[#0d0c22]">Inspiration</li>
-//         <li className="mx-1 md:mx-5 mb-1 md:mb-0 w-1/2 md:w-auto font-sans text-sm md:text-base font-semibold text-[#0d0c22]">Blog</li>
-//         <li className="mx-1 md:mx-5 mb-1 md:mb-0 w-1/2 md:w-auto font-sans text-sm md:text-base font-semibold text-[#0d0c22]">About</li>
-//         <li className="mx-1 md:mx-5 mb-1 md:mb-0 w-1/2 md:w-auto font-sans text-sm md:text-base font-semibold text-[#0d0c22]">About</li>
-//         <li className="mx-1 md:mx-5 mb-1 md:mb-0 w-1/2 md:w-auto font-sans text-sm md:text-base font-semibold text-[#0d0c22]">Careers</li>
-//         <li className="mx-1 md:mx-5 mb-1 md:mb-0 w-1/2 md:w-auto font-sans text-sm md:text-base font-semibold text-[#0d0c22]">Support</li>
-//     </ul>
-// </div>
-// <div className="flex flex-wrap w-full xl:w-1/3 justify-center xl:justify-end">
-//     <IoLogoInstagram className="mx-2 md:mx-4 h-4 w-4 md:h-5 md:w-5" />
-//     <FaFacebookSquare className="mx-2 md:mx-4 h-4 w-4 md:h-5 md:w-5" />
-//     <TiSocialTwitter className="mx-2 md:mx-4 h-4 w-4 md:h-5 md:w-5" />
-//     <FaPinterest className="mx-2 md:mx-4 h-4 w-4 md:h-5 md:w-5" />
-// </div>
-// </div>
+ 
