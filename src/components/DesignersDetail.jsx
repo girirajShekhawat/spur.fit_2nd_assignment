@@ -84,7 +84,7 @@ function DesignersDetail(props) {
       </div> */}
 
 <div className='w-full flex flex-col items-center my-[100px] '>
-      <img src="src/assets/dribble.jpg" alt='image' className='w-[1023px] bg-cover h-[6000px]'/>
+      <img src="dist/assets/original-6350195b7dd8a06f9dbce8a8aeee3e72.jpg" alt='image' className='w-[1023px] bg-cover h-[6000px]'/>
       </div>
       
     
