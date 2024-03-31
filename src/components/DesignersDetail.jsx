@@ -79,13 +79,11 @@ function DesignersDetail(props) {
             <span className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='relative'>UI8  <span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-6'></span></span>      </span>
         </p>
       </div>
-      {/* <div className='w-full flex flex-col items-center my-[100px] '>
+      <div className='w-full flex flex-col items-center my-[100px] '>
       <img src='https://cdn.dribbble.com/userupload/3938331/file/original-6350195b7dd8a06f9dbce8a8aeee3e72.jpg?resize=640x3878' alt='image' className='w-[1023px] bg-cover h-[6000px]'/>
-      </div> */}
-
-<div className='w-full flex flex-col items-center my-[100px] '>
-      <img src="dist/assets/original-6350195b7dd8a06f9dbce8a8aeee3e72.jpg" alt='image' className='w-[1023px] bg-cover h-[6000px]'/>
       </div>
+
+ 
       
     
        
