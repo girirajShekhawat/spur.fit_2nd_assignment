@@ -9,7 +9,7 @@ import VideoComponent from './VideoComponent';
 function DesignersDetail(props) {
     return (
         <div className='flex'>
-        <div className='px-[120px] py-[64px] '>
+        <div className='lg:px-[120px] py-[64px] xs:px-[16px] md:px-[20px]   '>
             <h1 className='h-[29px] mb-[10px] text-[#0d0c22] text-[24px] leading-[29px] font-[600] '>Ahead app redesign concept</h1>
            
            {/* designer's Headigng */}
@@ -32,7 +32,7 @@ function DesignersDetail(props) {
 </span>
 
                         <span className='h-[12px] font-[500] text-[12px] text-[#4daa57] leading-[12px] font-sans'>Available for work</span>
-                        <span className='h-[12px] font-[500] text-[12px] text-[#6e6d7a] leading-[12px] ml-[10px]'>Follow</span>
+                        <span className='xs:max-lg:collapse h-[12px] font-[500] text-[12px] text-[#6e6d7a] leading-[12px] ml-[10px]'>Follow</span>
                     </div>
                     
                      
@@ -58,29 +58,28 @@ function DesignersDetail(props) {
          
           <VideoComponent/>
       {/* whole text div */}
-      <div className='  w-full flex flex-col items-center mt-[50px]'>
-        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>Hey all,</p>
-        <p></p>
-        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>I've decided to make a redesign and animation for the <span className='relative'>Ahead 
-         <span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-6'></span></span>
-        I've decided to make a redesign and animation for the </p>
-        <p></p>
-        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>Design-Figma</p>
-        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>Illustrations — Adobe Illustrator</p>
-        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>Animation — Adobe After Effects</p>
-        <p></p>
-        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>************&nbsp;</p>
-        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] w-[752px] mt-[32px]'>💌 I am open to new projects!&nbsp;<span className='relative'>hey@migulko
-        <span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-7'></span></span></p>
-        <p className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] h-[32px] w-[752px] mt-[32px]'>************</p>
-        <p className='h-[32px] w-[752px] mt-[32px]'>
-            <span className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='relative'>Instagram<span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-6'></span></span>    |   </span>
-            <span className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='relative'>Linkedin<span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-6'></span></span>    |   </span>
-            <span className='text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='relative'>UI8  <span className='absolute left-0 w-full h-[2.5px] bg-[#ea64d9] top-6'></span></span>      </span>
+      <div className='  w-full flex flex-col lg:items-center mt-[50px] '>
+        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>Hey all,</p>
+    
+         <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] my-[32px] '>I've decided to make a redesign and animation for the &nbsp; <span className='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>Ahead</span>&nbsp;
+         app. Please review and happy to read your feedback! </p>
+     
+        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>Design-Figma</p>
+        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>Illustrations — Adobe Illustrator</p>
+        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>Animation — Adobe After Effects</p>
+         
+        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>************&nbsp;</p>
+        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans h-[32px] lg:w-[752px] mt-[32px]'>💌 I am open to new projects!&nbsp;<span className='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>hey@migulko
+         </span></p>
+        <p className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] h-[32px] lg:w-[752px] mt-[32px]'>************</p>
+        <p className='h-[32px] w-[752px] mt-[32px] flex flex-wrap'>
+            <span className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>Instagram </span>    |   </span>
+            <span className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>Linkedin </span>    |   </span>
+            <span className='xs:max-md:text-[16px] xs:max-md:leading-[28px] text-[20px] font-[400] leading-[32px] text-[#0d0c22] font-sans'><span className='underline underline-offset-8 decoration-[#ea64d9] decoration-2'>UI8   </span>    |  </span>
         </p>
       </div>
       <div className='w-full flex flex-col items-center my-[100px] '>
-      <img src='https://cdn.dribbble.com/userupload/3938331/file/original-6350195b7dd8a06f9dbce8a8aeee3e72.jpg?resize=640x3878' alt='image' className='w-[1023px] bg-cover h-[6000px]'/>
+      <img src='https://cdn.dribbble.com/userupload/3938331/file/original-6350195b7dd8a06f9dbce8a8aeee3e72.jpg?resize=640x3878' alt='image' className=' lg:w-[1023px] md:bg-cover   xs:bg-contain '/>
       </div>
 
  

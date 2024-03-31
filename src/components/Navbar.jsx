@@ -37,7 +37,7 @@ function Navbar(props) {
    
 
     return (
-        <div className='box-border w-full h-[100px]  flex justify-between items-center md:px-[40px] xl:px-[24px] '>
+        <div className='box-border w-full h-[100px]  flex justify-between items-center px-[24px] md:px-[24px] lg:px-[40px] xl:px-[24px] '>
            
          {showMenu &&  <div className='dropdown mb-[5px] '>
     <label className="popup">
@@ -78,6 +78,11 @@ function Navbar(props) {
                 <span>Go Pro</span>
               </button>
             </li>
+            <li>
+              <button >
+                <span>Log in</span>
+              </button>
+            </li>
           </ul>
         </nav>
       )}
@@ -101,7 +106,8 @@ function Navbar(props) {
                 </ul>
   
             </div>
-          }  
+          } 
+           {/*this is for the viewport width >1000px  */}
          {
            !showMenu && <div className='h-[30px] w-[90px] box-border  md:absolute left-0 md:ml-[40px] xl:static'>
               <div>
@@ -110,8 +116,8 @@ function Navbar(props) {
               
           </div>   
          }   
-            
-            {showMenu &&  <div className='h-[30px] w-[90px] box-border  absolute left-10 md:ml-[40px] xl:static'>
+            {/*this is for the viewport width < 1000px  */}
+            {showMenu &&  <div className='h-[30px] w-[90px] box-border  absolute left-20     xl:static'>
             <div>
                 <img src='https://asset.brandfetch.io/idARbzjU7f/idpVFjkyhe.svg' alt="Logo" className='h-[30px] w-[90px] bg-contain'/>
             </div>
@@ -133,9 +139,9 @@ function Navbar(props) {
            
 
             </div>
-            <div className='box-border   w-[39.1px] ml-[24px] mt-[6px] bg-transparent text-[14px] font-sans  mb-[5px] '>
+         {!showMenu &&   <div className='box-border   w-[39.1px] ml-[24px] mt-[6px] bg-transparent text-[14px] font-sans  mb-[5px] '>
                 <button className="text-[#0d0c22] h-[40px] ">Log in</button>
-            </div>
+            </div>}
             <div className='box-border h-[48px]  w-[99.61px] bg-black rounded-full pl-[24px] pr-[24px] flex items-center   ml-[24px]'>
                 <button className='text-[14px] text-white'>sign up</button>
             </div>
