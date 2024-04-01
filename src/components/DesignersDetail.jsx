@@ -13,7 +13,7 @@ function DesignersDetail(props) {
             <h1 className='h-[29px] mb-[10px] text-[#0d0c22] text-[24px] leading-[29px] font-[600] '>Ahead app redesign concept</h1>
            
            {/* designer's Headigng */}
-            <div className='sticky top-0 z-10 bg-white flex justify-between items-center h-[72px] mb-[19px]  '>
+            <div className='sticky top-0 bg-white flex justify-between items-center h-[72px] mb-[19px]  '>
                 <div className='flex '>
                 <div>
                     <img src='https://cdn.dribbble.com/users/1998175/avatars/normal/af46ac7b92eb85f76f5a3fe4f214fdf2.jpg?1542363868' alt='DesignerImg' 
